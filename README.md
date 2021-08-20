@@ -10,7 +10,11 @@ Enable Developer Mode by clicking the toggle switch next to Developer mode.
 Click the "Load Unpacked" button and select the extension Folder.
 
 <p align="center">
-  <img src="./demo/images/install_instructions.png" alt="Install Instructions">
+  <img src="./demo/images/install_instructions.png" width="400" alt="Install Instructions">
 <p/>
 
 Voila! The extension is now installed and ready to be used!
+
+<p align="center">
+  <img src="./demo/images/result.png" width="400" alt="Result">
+<p/>
