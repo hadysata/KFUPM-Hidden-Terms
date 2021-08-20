@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "KFUPM Hidden Terms",
-  "description": "Extintion to view the hidden terms in the banner!",
+  "description": "Extension to view the hidden terms in the banner!",
   "version": "0.1",
    "browser_action": {
     "default_icon": "assets/icons/128.png",
