@@ -19,7 +19,7 @@
 		  },
 	
    "content_scripts": [{
-    "js": ["scripts/script.js","scripts/asyncTracking.js"],
+    "js": ["scripts/script.js"],
     "matches": ["https://banner9-registration.kfupm.edu.sa/StudentRegistrationSsb/ssb/registrationHistory/*"]
   }]
 }
