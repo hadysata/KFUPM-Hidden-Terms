@@ -1,0 +1,1 @@
+window.open("https://banner9-registration.kfupm.edu.sa/StudentRegistrationSsb/ssb/registrationHistory/registrationHistory");    

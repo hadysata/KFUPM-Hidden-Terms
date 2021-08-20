@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "KFUPM Hidden Terms",
+  "description": "Extintion to view the hidden terms in the banner!",
+  "version": "0.1",
+   "browser_action": {
+    "default_icon": "assets/icons/128.png",
+   "default_popup": "popup.html",
+    "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'"
+ },
+  
+  "permissions": [
+    "activeTab",
+	  "storage"
+  ],
+  "icons": { "16": "assets/icons/16.png",
+           "48": "assets/icons/48.png",
+          "128": "assets/icons/128.png" 
+		  },
+	
+   "content_scripts": [{
+    "js": ["scripts/script.js","scripts/asyncTracking.js"],
+    "matches": ["https://banner9-registration.kfupm.edu.sa/StudentRegistrationSsb/ssb/registrationHistory/*"]
+  }]
+}
